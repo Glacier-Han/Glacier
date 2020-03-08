@@ -77,6 +77,12 @@ ol {
   font-weight: bolder;
   font-style: normal;
 }
+.Return {
+  text-decoration: none;
+  color: red;
+  font-size: 14;
+  font-weight: bold;
+}
 .Mokcha{
   border-right: 1px solid gray;
   font-size: 17px;
