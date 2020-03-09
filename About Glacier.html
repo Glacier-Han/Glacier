@@ -12,12 +12,14 @@
 function NDhandler(self){
   var bodySt = document.querySelector('body');
   if(self.value === 'Normal Mode'){
+    alert('Page will turn to Normal Mode');
     bodySt.style.backgroundColor='#eeffdd';
     bodySt.style.color='#555555';
     document.querySelector('.Mokcha').style.color='green';
     self.value = ' Night Mode ';
   }
   else {
+    alert('Page will turn to Night Mode');
     bodySt.style.backgroundColor='#3d3c3a';
     bodySt.style.color='#e5e4e2';
     document.querySelector('.Mokcha').style.color='powderblue';
@@ -47,8 +49,7 @@ function NDhandler(self){
 
 <input type="button" value=" Night Mode " onclick="
 NDhandler(this);
-">
-
+"> <br><br>
 
 </div>
 
