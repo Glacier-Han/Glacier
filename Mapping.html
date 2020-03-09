@@ -7,13 +7,30 @@
 
 <link rel="stylesheet" href="Blogstyle.css">
 
+<script>
+function NDhandler(self){
+  var bodySt = document.querySelector('body');
+  if(self.value === 'Normal Mode'){
+    bodySt.style.backgroundColor='#eeffdd';
+    bodySt.style.color='#555555';
+    document.querySelector('.Mokcha').style.color='green';
+    self.value = ' Night Mode ';
+  }
+  else {
+    bodySt.style.backgroundColor='#3d3c3a';
+    bodySt.style.color='#e5e4e2';
+    document.querySelector('.Mokcha').style.color='powderblue';
+    self.value = 'Normal Mode';
+  }
+}
+</script>
 
 </head>
 
 <body>
 <h1>&nbsp;Hello :)</h1><hr>
 
-<h2>I'm Glacier Han.</h2><p class="line1"><strong>&nbsp;I was born in 1999, and majored in Electronic Engineering in KNU. <br> Because of Korean Male's Military duty, I'm now on duty as a <a style="color:purple"> police officer.</a><br> During duty period, I want to UPGRADE myself. <br> This Website is description of <u>UPGRADEING</u> me. <br>
+<h2>I'm Glacier Han.</h2><p class="line1"><strong>&nbsp;I was born in 1999, and majored in Electronic Engineering in KNU. <br> Because of Korean Male's Military duty, I'm now on duty as a <a style="color:powderblue"> police officer.</a><br> During duty period, I want to UPGRADE myself. <br> This Website is description of <u>UPGRADEING</u> me. <br>
 <mark> Let's start It !! </mark></strong><br>
 <progress></progress><br>
 
@@ -32,16 +49,7 @@
   <br>  <a href="About Glacier.html">○Return to Main Page○</a> <br><br><br>
   </div>
   <input type="button" value=" Night Mode " onclick="
-  if(this.value === 'Normal Mode'){
-    document.querySelector('body').style.backgroundColor='#eeffdd';
-    document.querySelector('body').style.color='#555555';
-    this.value = ' Night Mode ';
-  }
-  else {
-    document.querySelector('body').style.backgroundColor='#3d3c3a';
-    document.querySelector('body').style.color='#e5e4e2';
-    this.value = 'Normal Mode';
-  }
+  NDhandler(this);
   ">
 
 </div>
