@@ -29,8 +29,21 @@
   <li>Mapping my future plan. </li><br><br>
 </ol>
 <div class="Return">
-  <br>  <a href="About Glacier.html">○Return to Main Page○</a> <br>
+  <br>  <a href="About Glacier.html">○Return to Main Page○</a> <br><br><br>
   </div>
+  <input type="button" value=" Night Mode " onclick="
+  if(this.value === 'Normal Mode'){
+    document.querySelector('body').style.backgroundColor='#eeffdd';
+    document.querySelector('body').style.color='#555555';
+    this.value = ' Night Mode ';
+  }
+  else {
+    document.querySelector('body').style.backgroundColor='#3d3c3a';
+    document.querySelector('body').style.color='#e5e4e2';
+    this.value = 'Normal Mode';
+  }
+  ">
+
 </div>
 
 

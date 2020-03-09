@@ -12,6 +12,8 @@ body {
   font-family:"Nanum Gothic", "Malgun Gothic";
 }
 a:hover { color :lightblue}
+A:link {color: inherit}
+A:visited {color : inherit}
 h1 {
   font-size: 40px;
   text-align: center;
@@ -95,6 +97,7 @@ ol {
 #List{
   display: grid;
   grid-template-columns:150px 1fr;
+
 }
 div{
   margin-left: 5px;
