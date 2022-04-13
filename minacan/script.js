@@ -1,5 +1,5 @@
-var DRUM_TEXTURE = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/8076/cokecan3.png";
-var REFLECTION_TEXTURE = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/8076/cokecanref4.png";
+var DRUM_TEXTURE = "https://github.com/Glacier-Han/Glacier/blob/master/mina/with_can.png?raw=true";
+var REFLECTION_TEXTURE = "";
 var SHADOW_TEXTURE = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/8076/shadow4.png";
 
 // Assembiles are for grouping faces and other assembiles
